@@ -16,7 +16,7 @@ export default function Services() {
   const gridRef = useScrollAnimation({ from: { opacity: 0, y: 50 }, to: { opacity: 1, y: 0 }, stagger: 0.1, triggerOffset: '85%' })
 
   return (
-    <section id="servicios" style={{ background: 'white', padding: '80px 0' }}>
+    <section id="servicios" aria-label="Nuestros servicios" style={{ background: 'white', padding: '80px 0' }}>
       <Container>
         <div ref={headingRef} style={{ textAlign: 'center', marginBottom: 56 }}>
           <span style={{ color: '#00AEEF', fontWeight: 600, fontSize: 12, textTransform: 'uppercase', letterSpacing: '0.1em' }}>Lo que hacemos</span>

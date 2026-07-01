@@ -12,7 +12,7 @@ export default function Testimonials() {
   const gridRef = useScrollAnimation({ from: { opacity: 0, y: 50, scale: 0.97 }, to: { opacity: 1, y: 0, scale: 1 }, stagger: 0.15, triggerOffset: '85%' })
 
   return (
-    <section style={{ background: 'white', padding: '80px 0' }}>
+    <section id="testimonios" aria-label="Testimonios de clientes" style={{ background: 'white', padding: '80px 0' }}>
       <Container>
         <div ref={headingRef} style={{ textAlign: 'center', marginBottom: 56 }}>
           <span style={{ color: '#00AEEF', fontWeight: 600, fontSize: 12, textTransform: 'uppercase', letterSpacing: '0.1em' }}>Testimonios</span>

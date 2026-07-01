@@ -13,7 +13,7 @@ export default function WhyUs() {
   const cardsRef = useScrollAnimation({ from: { opacity: 0, x: 50 }, to: { opacity: 1, x: 0 }, stagger: 0.12, duration: 0.6 })
 
   return (
-    <section style={{ background: 'linear-gradient(135deg, #00AEEF, #8DC63F)', padding: '80px 0' }}>
+    <section id="nosotros" aria-label="Por qué elegirnos" style={{ background: 'linear-gradient(135deg, #00AEEF, #8DC63F)', padding: '80px 0' }}>
       <Container>
         <div style={{ display: 'flex', gap: 56, alignItems: 'center', flexWrap: 'wrap' }}>
           <div ref={textRef} style={{ flex: '1 1 340px' }}>
