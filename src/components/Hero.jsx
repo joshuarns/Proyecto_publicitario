@@ -112,7 +112,7 @@ export default function Hero() {
             </div>
 
             <h1 ref={h1Ref} style={{ opacity: 0, fontSize: 'clamp(36px, 5vw, 64px)', fontWeight: 900, lineHeight: 1.05, color: 'white', margin: '0 0 24px', letterSpacing: '-1px' }}>
-              Tu negocio merece<br />
+              Tu negocio merece{' '}<br />
               <span style={{ background: 'linear-gradient(90deg, #00AEEF, #8DC63F)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
                 destacar en línea.
               </span>

@@ -11,7 +11,7 @@ export default function Contact() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 56, alignItems: 'start' }}>
           <div ref={leftRef}>
             <span style={{ color: '#00AEEF', fontWeight: 600, fontSize: 12, textTransform: 'uppercase', letterSpacing: '0.1em' }}>Contacto</span>
-            <h2 style={{ fontSize: 40, fontWeight: 900, color: '#1a1a1a', margin: '8px 0 12px', lineHeight: 1.2 }}>¿Listo para crecer?<br />Hablemos.</h2>
+            <h2 style={{ fontSize: 40, fontWeight: 900, color: '#1a1a1a', margin: '8px 0 12px', lineHeight: 1.2 }}>¿Listo para crecer?{' '}<br />Hablemos.</h2>
             <p style={{ color: '#6B7280', lineHeight: 1.7, marginBottom: 28, fontSize: 16 }}>
               Cuéntanos tu proyecto y en menos de 24 horas te enviamos una propuesta sin compromiso.
             </p>

@@ -19,7 +19,7 @@ export default function WhyUs() {
           <div ref={textRef} style={{ flex: '1 1 340px' }}>
             <span style={{ color: 'rgba(255,255,255,0.85)', fontWeight: 600, fontSize: 12, textTransform: 'uppercase', letterSpacing: '0.1em' }}>¿Por qué nosotros?</span>
             <h2 style={{ fontSize: 40, fontWeight: 900, color: 'white', margin: '8px 0 16px', lineHeight: 1.2 }}>
-              Más que una agencia,<br />somos tu equipo digital
+              Más que una agencia,{' '}<br />somos tu equipo digital
             </h2>
             <p style={{ color: 'rgba(255,255,255,0.85)', lineHeight: 1.7, marginBottom: 32, fontSize: 16 }}>
               Trabajamos con empresas locales y nacionales para llevarlas al siguiente nivel. Cada proyecto lo tratamos como si fuera nuestro propio negocio.
