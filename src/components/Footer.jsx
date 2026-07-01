@@ -1,5 +1,5 @@
 import Container from './Container'
-import logo from '../assets/img/logo-proyecto-publicitario.png'
+import logo from '../assets/img/logotipo-proyecto-horizontal1.png'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 const socialLinks = [
